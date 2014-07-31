@@ -1,0 +1,4 @@
+SpriteTexture		= %checker.png
+VertexShaderFileOGL_1    = %SpriteOGL.vs
+FragmentShaderFileOGL_1     = %SpriteOGL.ps
+RenderStateFile     = %spriteOGL.rs

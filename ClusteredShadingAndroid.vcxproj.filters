@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="jni\Android.mk">
+      <Filter>Make</Filter>
+    </None>
+    <None Include="jni\Application.mk">
+      <Filter>Make</Filter>
+    </None>
+    <None Include="AndroidManifest.xml">
+      <Filter>Make</Filter>
+    </None>
+    <None Include="jni\kernels.ispc">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Media\building\shader\GPUQuadDLFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\GPUQuadDLResolveFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\GPUQuadFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\GPUQuadVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\TiledDeferredCS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\BasicLoopFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\ClusteredFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\CopyTextureFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\ForwardFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\FullScreenTriangleVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\GBufferFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\GeometryVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{036e125d-373e-40e9-beff-9c6ef14749a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make">
+      <UniqueIdentifier>{46762f44-7aa4-4da8-b6f3-bc6ae4cd0f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ccd1bf77-5f8f-4d46-8db5-7c8553292488}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\ColorUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\LightGrid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\FragmentFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\GLProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\ClusteredShadingSample.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\ColorUtil.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\LightGrid.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\FragmentFactory.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\Structures.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\GLProgram.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\ClusteredShadingSample.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\GPUQuad.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\PerFrameConstants.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\Rendering.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\ShaderDefines.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\FramebufferFlat.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\shader\GBuffer.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CPUT">
+      <UniqueIdentifier>{812C837C-6D63-840D-1650-6A100266000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware">
+      <UniqueIdentifier>{A3A20214-8F5A-4461-F861-1DBDE438DF51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\glew-1.10.0">
+      <UniqueIdentifier>{CC1151F3-B80B-7A45-A178-10568D11E0B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\glew-1.10.0\include">
+      <UniqueIdentifier>{3F4589C5-2B6B-532C-14B1-D8F7007678F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\glew-1.10.0\include\GL">
+      <UniqueIdentifier>{4182E2EA-ADF0-376A-F6D9-F26962872D06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\glew-1.10.0\src">
+      <UniqueIdentifier>{E3D5F875-CFE5-A446-389F-096524CE93DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\libktx">
+      <UniqueIdentifier>{40D9E479-ACEF-E20F-F566-6E3161BCB397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware\stb">
+      <UniqueIdentifier>{7BFA24C4-67C8-18CA-505C-89F03CC9F42E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPUT\CPUT.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAnimation.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetLibrary.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetLibraryOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetSet.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTBuffer.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTBufferOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTButton.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCallbackHandler.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCamera.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCheckbox.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTConfigBlock.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTControl.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCrossPlatform.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTDropdown.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTEventHandler.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTFont.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTFrustum.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGUIElement.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiController.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiControllerOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTITTTaskMarker.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTInputLayoutCache.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTLight.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterial.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterialEffect.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterialEffectOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMath.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMesh.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMeshOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTModel.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTModelOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTNullNode.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTOGLES3Compat.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTOSServices.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTParser.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTPerfTaskMarker.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRefCount.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderNode.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderParams.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderParamsDX.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateBlock.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateBlockOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateMapsOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderTargetOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTResource.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTScene.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTShaderOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSkeleton.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSlider.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSprite.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSpriteOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTText.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTexture.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTextureOGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTimer.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTimerWin.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTWindow.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTWindowWin.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUT_OGL.h">
+      <Filter>CPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\glew-1.10.0\include\GL\glew.h">
+      <Filter>middleware\glew-1.10.0\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\gl_funcptrs.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\gles1_funcptrs.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\gles2_funcptrs.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\gles3_funcptrs.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\ktx.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\ktxint.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\libktx\uthash.h">
+      <Filter>middleware\libktx</Filter>
+    </ClInclude>
+    <ClInclude Include="middleware\stb\stb_image.h">
+      <Filter>middleware\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPUT\CPUTAnimation.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetLibrary.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetLibraryOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetSet.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTBufferOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTButton.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTCamera.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTCheckbox.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTConfigBlock.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTControl.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTDropdown.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFont.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFrustum.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGUIElement.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiController.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiControllerOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTITTTaskMarker.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTLight.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterial.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterialEffect.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterialEffectOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMesh.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMeshOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTModel.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTModelOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTNullNode.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTOSServicesWin.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTParser.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTPerfTaskMarker.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderNode.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderStateBlock.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderStateBlockOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderTargetOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTScene.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTShaderOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSkeleton.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSlider.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSprite.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSpriteOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTText.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTexture.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTextureOGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTimerWin.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTWindowWin.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUT_OGL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUT_OGL_GL.cpp">
+      <Filter>CPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\glew-1.10.0\src\glew.c">
+      <Filter>middleware\glew-1.10.0\src</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\checkheader.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\errstr.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\hashtable.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\loader.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\swap.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\writer.c">
+      <Filter>middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\stb\stb_image.c">
+      <Filter>middleware\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

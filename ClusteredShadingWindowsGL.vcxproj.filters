@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f554e400-99c0-4d7b-8c91-902dc01ff9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2b35ff82-39f7-4233-a081-6243153fd6a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\ColorUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\FragmentFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\GLProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\LightGrid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusteredShadingWindows.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\ClusteredShadingSample.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\ColorUtil.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\FragmentFactory.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\GLProgram.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\kernels_ispc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\LightGrid.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\Structures.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\ClusteredShadingSample.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\GBuffer.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\GPUQuad.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\PerFrameConstants.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\Rendering.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\ShaderDefines.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Media\building\Shader\FramebufferFlat.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\building\Shader\FullScreenTriangleVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GBufferFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GeometryVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GPUQuadDLFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GPUQuadDLResolveFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GPUQuadFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\GPUQuadVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\BasicLoopFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\ClusteredFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\Shader\ForwardFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\TiledDeferredCS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Media\building\shader\CopyTextureFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

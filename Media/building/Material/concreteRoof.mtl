@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = concreteRoofForward
+Material1 = concreteRoofClustered
+Material2 = concreteRoofGBuffer

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A34329A3-DBBA-425B-8127-0912390B5AEB}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(ANDROID_NDK_ROOT)\platforms\android-18\arch-arm\usr\include;$(ProjectDir)\CPUT;$(ProjectDir)\middleware\glew-1.10.0\include;$(ProjectDir)\middleware;$(ProjectDir)\middleware;C:\Android\ndk\toolchains\mipsel-linux-android-4.6\prebuilt\windows\lib\gcc\mipsel-linux-android\4.6\include;C:\Android\ndk\toolchains\mipsel-linux-android-4.6\prebuilt\windows\lib\gcc\mipsel-linux-android\4.6\include-fixed;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath>CPUT;$(IncludePath)</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)CPUTAndroid-Debug.vgdbsettings</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(ANDROID_NDK_ROOT)\platforms\android-18\arch-arm\usr\include;$(ProjectDir)\CPUT;$(ProjectDir)\middleware\glew-1.10.0\include;$(ProjectDir)\middleware;C:\Android\ndk\toolchains\mipsel-linux-android-4.6\prebuilt\windows\lib\gcc\mipsel-linux-android\4.6\include;C:\Android\ndk\toolchains\mipsel-linux-android-4.6\prebuilt\windows\lib\gcc\mipsel-linux-android\4.6\include-fixed;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath>CPUT;$(IncludePath)</IncludePath>
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)CPUTAndroid-Release.vgdbsettings</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="jni/Android.mk" />
+    <None Include="jni/Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPUT\CPUTAnimation.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetLibrary.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetLibraryOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTAssetSet.cpp" />
+    <ClCompile Include="CPUT\CPUTBufferOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTButton.cpp" />
+    <ClCompile Include="CPUT\CPUTCamera.cpp" />
+    <ClCompile Include="CPUT\CPUTCheckbox.cpp" />
+    <ClCompile Include="CPUT\CPUTConfigBlock.cpp" />
+    <ClCompile Include="CPUT\CPUTControl.cpp" />
+    <ClCompile Include="CPUT\CPUTDropdown.cpp" />
+    <ClCompile Include="CPUT\CPUTFont.cpp" />
+    <ClCompile Include="CPUT\CPUTFrustum.cpp" />
+    <ClCompile Include="CPUT\CPUTGuiController.cpp" />
+    <ClCompile Include="CPUT\CPUTGuiControllerOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTGUIElement.cpp" />
+    <ClCompile Include="CPUT\CPUTITTTaskMarker.cpp" />
+    <ClCompile Include="CPUT\CPUTLight.cpp" />
+    <ClCompile Include="CPUT\CPUTMaterial.cpp" />
+    <ClCompile Include="CPUT\CPUTMaterialEffect.cpp" />
+    <ClCompile Include="CPUT\CPUTMaterialEffectOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTMesh.cpp" />
+    <ClCompile Include="CPUT\CPUTMeshOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTModel.cpp" />
+    <ClCompile Include="CPUT\CPUTModelOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTNullNode.cpp" />
+    <ClCompile Include="CPUT\CPUTOSServicesLinux.cpp" />
+    <ClCompile Include="CPUT\CPUTParser.cpp" />
+    <ClCompile Include="CPUT\CPUTPerfTaskMarker.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderNode.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderStateBlock.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderStateBlockOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTRenderTargetOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTScene.cpp" />
+    <ClCompile Include="CPUT\CPUTShaderOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTSlider.cpp" />
+    <ClCompile Include="CPUT\CPUTSprite.cpp" />
+    <ClCompile Include="CPUT\CPUTSpriteOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTText.cpp" />
+    <ClCompile Include="CPUT\CPUTTexture.cpp" />
+    <ClCompile Include="CPUT\CPUTTextureOGL.cpp" />
+    <ClCompile Include="CPUT\CPUTTimerLinux.cpp" />
+    <ClCompile Include="CPUT\CPUTWindowAndroid.cpp" />
+    <ClCompile Include="CPUT\CPUT_OGL.cpp" />
+    <ClCompile Include="CPUT\CPUT_OGL_GLES.cpp" />
+    <ClCompile Include="middleware\libktx\checkheader.c" />
+    <ClCompile Include="middleware\libktx\errstr.c" />
+    <ClCompile Include="middleware\libktx\hashtable.c" />
+    <ClCompile Include="middleware\libktx\loader.c" />
+    <ClCompile Include="middleware\libktx\swap.c" />
+    <ClCompile Include="middleware\libktx\writer.c" />
+    <ClCompile Include="middleware\ndk_helper\gestureDetector.cpp" />
+    <ClCompile Include="middleware\ndk_helper\JNIHelper.cpp" />
+    <ClCompile Include="middleware\ndk_helper\vecmath.cpp" />
+    <ClCompile Include="middleware\stb\stb_image.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPUT\CPUT.h" />
+    <ClInclude Include="CPUT\CPUTAnimation.h" />
+    <ClInclude Include="CPUT\CPUTAssetLibrary.h" />
+    <ClInclude Include="CPUT\CPUTAssetLibraryOGL.h" />
+    <ClInclude Include="CPUT\CPUTAssetSet.h" />
+    <ClInclude Include="CPUT\CPUTBuffer.h" />
+    <ClInclude Include="CPUT\CPUTBufferOGL.h" />
+    <ClInclude Include="CPUT\CPUTButton.h" />
+    <ClInclude Include="CPUT\CPUTCallbackHandler.h" />
+    <ClInclude Include="CPUT\CPUTCamera.h" />
+    <ClInclude Include="CPUT\CPUTCheckbox.h" />
+    <ClInclude Include="CPUT\CPUTConfigBlock.h" />
+    <ClInclude Include="CPUT\CPUTControl.h" />
+    <ClInclude Include="CPUT\CPUTCrossPlatform.h" />
+    <ClInclude Include="CPUT\CPUTDropdown.h" />
+    <ClInclude Include="CPUT\CPUTEventHandler.h" />
+    <ClInclude Include="CPUT\CPUTFont.h" />
+    <ClInclude Include="CPUT\CPUTFrustum.h" />
+    <ClInclude Include="CPUT\CPUTGuiController.h" />
+    <ClInclude Include="CPUT\CPUTGuiControllerOGL.h" />
+    <ClInclude Include="CPUT\CPUTGUIElement.h" />
+    <ClInclude Include="CPUT\CPUTInputLayoutCache.h" />
+    <ClInclude Include="CPUT\CPUTITTTaskMarker.h" />
+    <ClInclude Include="CPUT\CPUTLight.h" />
+    <ClInclude Include="CPUT\CPUTMaterial.h" />
+    <ClInclude Include="CPUT\CPUTMaterialEffect.h" />
+    <ClInclude Include="CPUT\CPUTMaterialEffectOGL.h" />
+    <ClInclude Include="CPUT\CPUTMath.h" />
+    <ClInclude Include="CPUT\CPUTMesh.h" />
+    <ClInclude Include="CPUT\CPUTMeshOGL.h" />
+    <ClInclude Include="CPUT\CPUTModel.h" />
+    <ClInclude Include="CPUT\CPUTModelOGL.h" />
+    <ClInclude Include="CPUT\CPUTNullNode.h" />
+    <ClInclude Include="CPUT\CPUTOGLES3Compat.h" />
+    <ClInclude Include="CPUT\CPUTOSServices.h" />
+    <ClInclude Include="CPUT\CPUTParser.h" />
+    <ClInclude Include="CPUT\CPUTPerfTaskMarker.h" />
+    <ClInclude Include="CPUT\CPUTRefCount.h" />
+    <ClInclude Include="CPUT\CPUTRenderNode.h" />
+    <ClInclude Include="CPUT\CPUTRenderParams.h" />
+    <ClInclude Include="CPUT\CPUTRenderParamsDX.h" />
+    <ClInclude Include="CPUT\CPUTRenderStateBlock.h" />
+    <ClInclude Include="CPUT\CPUTRenderStateBlockOGL.h" />
+    <ClInclude Include="CPUT\CPUTRenderStateMapsOGL.h" />
+    <ClInclude Include="CPUT\CPUTRenderTarget.h" />
+    <ClInclude Include="CPUT\CPUTRenderTargetOGL.h" />
+    <ClInclude Include="CPUT\CPUTResource.h" />
+    <ClInclude Include="CPUT\CPUTScene.h" />
+    <ClInclude Include="CPUT\CPUTShaderOGL.h" />
+    <ClInclude Include="CPUT\CPUTSkeleton.h" />
+    <ClInclude Include="CPUT\CPUTSlider.h" />
+    <ClInclude Include="CPUT\CPUTSprite.h" />
+    <ClInclude Include="CPUT\CPUTSpriteOGL.h" />
+    <ClInclude Include="CPUT\CPUTText.h" />
+    <ClInclude Include="CPUT\CPUTTexture.h" />
+    <ClInclude Include="CPUT\CPUTTextureOGL.h" />
+    <ClInclude Include="CPUT\CPUTTimer.h" />
+    <ClInclude Include="CPUT\CPUTTimerLinux.h" />
+    <ClInclude Include="CPUT\CPUTTimerWin.h" />
+    <ClInclude Include="CPUT\CPUTWindow.h" />
+    <ClInclude Include="CPUT\CPUTWindowAndroid.h" />
+    <ClInclude Include="CPUT\CPUTWindowWin.h" />
+    <ClInclude Include="CPUT\CPUT_OGL.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

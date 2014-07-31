@@ -1,0 +1,7 @@
+ETC and KTC support is provided through the Khronos Group
+
+Get the original source code and any updates at: http://www.khronos.org/opengles/sdk/tools/KTX/
+
+Review LICENSE for licensing details
+
+NOTE: SUPPORT_SOFTWARE_ETC_UNPACK is defined as zero (0) in this application so we don't have to include etcdec.cxx; the license for this file does not work with this application.

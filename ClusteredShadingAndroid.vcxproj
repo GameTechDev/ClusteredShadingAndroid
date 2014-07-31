@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{929A4EF1-C788-454A-8543-6CEA3D4DA111}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\Android\ndk\platforms\android-18\arch-arm\usr\include;C:\Android\ndk\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.6\include;C:\Android\ndk\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.6\include-fixed;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)ClusteredShadingAndroid-Debug.vgdbsettings</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(ANDROID_NDK_ROOT)\platforms\android-18\arch-arm\usr\include;$(ProjectDir)\CPUT\middleware;$(ANDROID_NDK_ROOT)\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.6\include;$(ANDROID_NDK_ROOT)\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.6\include-fixed;$(ProjectDir)\CPUT\CPUT;$(ProjectDir)\middleware\glew-1.10.0\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <NMakeOutput>$(ProjectDir)ClusteredShadingAndroid-Release.vgdbsettings</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="AndroidManifest.xml" />
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="jni\kernels.ispc">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Media\building\shader\BasicLoopFS.glsl" />
+    <None Include="Media\building\shader\ClusteredFS.glsl" />
+    <None Include="Media\building\shader\CopyTextureFS.glsl" />
+    <None Include="Media\building\shader\ForwardFS.glsl" />
+    <None Include="Media\building\shader\FullScreenTriangleVS.glsl" />
+    <None Include="Media\building\shader\GBufferFS.glsl" />
+    <None Include="Media\building\shader\GeometryVS.glsl" />
+    <None Include="Media\building\shader\GPUQuadDLFS.glsl" />
+    <None Include="Media\building\shader\GPUQuadDLResolveFS.glsl" />
+    <None Include="Media\building\shader\GPUQuadFS.glsl" />
+    <None Include="Media\building\shader\GPUQuadVS.glsl" />
+    <None Include="Media\building\shader\TiledDeferredCS.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\ClusteredShadingSample.h" />
+    <ClInclude Include="jni\ColorUtil.h" />
+    <ClInclude Include="jni\FragmentFactory.h" />
+    <ClInclude Include="jni\GLProgram.h" />
+    <ClInclude Include="jni\LightGrid.h" />
+    <ClInclude Include="jni\Structures.h" />
+    <ClInclude Include="Media\building\shader\FramebufferFlat.h" />
+    <ClInclude Include="Media\building\shader\GBuffer.h" />
+    <ClInclude Include="Media\building\shader\GPUQuad.h" />
+    <ClInclude Include="Media\building\shader\PerFrameConstants.h" />
+    <ClInclude Include="Media\building\shader\Rendering.h" />
+    <ClInclude Include="Media\building\shader\ShaderDefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\ClusteredShadingSample.cpp" />
+    <ClCompile Include="jni\ColorUtil.cpp" />
+    <ClCompile Include="jni\FragmentFactory.cpp" />
+    <ClCompile Include="jni\GLProgram.cpp" />
+    <ClCompile Include="jni\LightGrid.cpp" />
+    <ClCompile Include="jni\main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

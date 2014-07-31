@@ -1,0 +1,20 @@
+﻿Build started 1/31/2014 6:16:48 PM.
+     1>Project "C:\Sourcecode\glew-1.10.0\build\vc10\glew_static.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "tmp\glew_static\Debug\Win32\glew_static.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D GLEW_STATIC /l"0x0409" /nologo /fo"tmp\glew_static\Debug\Win32\glew.res" ..\glew.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../lib\Debug\Win32\glew32sd.lib" /NOLOGO /MACHINE:X86 tmp\glew_static\Debug\Win32\glew.res
+         tmp\glew_static\Debug\Win32\glew.obj
+         glew_static.vcxproj -> C:\Sourcecode\glew-1.10.0\build\vc10\../../lib\Debug\Win32\glew32sd.lib
+       FinalizeBuildStatus:
+         Deleting file "tmp\glew_static\Debug\Win32\glew_static.unsuccessfulbuild".
+         Touching "tmp\glew_static\Debug\Win32\glew_static.lastbuildstate".
+     1>Done Building Project "C:\Sourcecode\glew-1.10.0\build\vc10\glew_static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

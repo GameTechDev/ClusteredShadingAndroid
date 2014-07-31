@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CPUT\CPUT_OGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUT_OGL_GLES.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAnimation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetLibrary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetLibraryOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTAssetSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTBufferOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTButton.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTCheckbox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTConfigBlock.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTDropdown.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTFrustum.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiController.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGuiControllerOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTGUIElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTITTTaskMarker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterial.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterialEffect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMaterialEffectOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTMeshOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTModelOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTNullNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTOSServicesLinux.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTPerfTaskMarker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderStateBlock.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderStateBlockOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTRenderTargetOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTShaderOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSlider.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSprite.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTSpriteOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTText.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTexture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTextureOGL.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTTimerLinux.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUT\CPUTWindowAndroid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\hashtable.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\loader.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\swap.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\writer.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\checkheader.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\libktx\errstr.c">
+      <Filter>Source\middleware\libktx</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ndk_helper\gestureDetector.cpp">
+      <Filter>Source\middleware\ndk_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ndk_helper\JNIHelper.cpp">
+      <Filter>Source\middleware\ndk_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\ndk_helper\vecmath.cpp">
+      <Filter>Source\middleware\ndk_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="middleware\stb\stb_image.c">
+      <Filter>Source\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPUT\CPUT_OGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAnimation.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetLibrary.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetLibraryOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTAssetSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTBuffer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTBufferOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTButton.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCallbackHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCamera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCheckbox.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTConfigBlock.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTControl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTCrossPlatform.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTDropdown.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTEventHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTFont.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTFrustum.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiController.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGuiControllerOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTGUIElement.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTInputLayoutCache.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTITTTaskMarker.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTLight.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterial.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterialEffect.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMaterialEffectOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMath.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMesh.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTMeshOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTModel.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTModelOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTNullNode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTOGLES3Compat.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTOSServices.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTPerfTaskMarker.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRefCount.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderNode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderParams.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderParamsDX.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateBlock.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateBlockOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderStateMapsOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderTarget.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTRenderTargetOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTResource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTShaderOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSkeleton.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSlider.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSprite.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTSpriteOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTText.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTexture.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTextureOGL.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTimer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTimerLinux.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTTimerWin.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTWindowAndroid.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUTWindowWin.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUT\CPUT.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jni/Android.mk" />
+    <None Include="jni/Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{068c97d9-efb9-45dc-8616-5c8963222818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\middleware">
+      <UniqueIdentifier>{547985ca-efc0-4c02-ba8a-0973159a524b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\middleware\libktx">
+      <UniqueIdentifier>{b261f8ce-f86c-4f68-8d8f-c71ef4ed1825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\middleware\ndk_helper">
+      <UniqueIdentifier>{6d716579-e51a-44df-8cef-2487ad204c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\stb">
+      <UniqueIdentifier>{146d19f5-8e33-4b19-b948-5ca29fc28d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

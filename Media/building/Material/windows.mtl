@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = windowsForward
+Material1 = windowsClustered
+Material2 = windowsGBuffer

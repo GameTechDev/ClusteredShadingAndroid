@@ -1,0 +1,14 @@
+texture0 = $shadow_depth
+
+VertexShaderFile    = %sprite.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = %sprite.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+VertexShaderFileOGL_1    = %SpriteOGL.vs
+FragmentShaderFileOGL_1  = %SpriteOGL.ps
+
+RenderStateFile     = %sprite.rs

@@ -1,0 +1,23 @@
+﻿Build started 1/31/2014 6:02:51 PM.
+     1>Project "C:\Sourcecode\glew-1.10.0\build\vc10\glew_static.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "../../lib\Release\x64\".
+       InitializeBuildStatus:
+         Creating "tmp\glew_static\Release\x64\glew_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../include /I../../include /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _LIB /D WIN32_LEAN_AND_MEAN /D GLEW_STATIC /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tmp\glew_static\Release\x64\\" /Fd"tmp\glew_static\Release\x64\vc100.pdb" /Gd /TC /errorReport:prompt ..\..\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D GLEW_STATIC /l"0x0409" /nologo /fo"tmp\glew_static\Release\x64\glew.res" ..\glew.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"../../lib\Release\x64\glew32s.lib" /NOLOGO /MACHINE:X64 tmp\glew_static\Release\x64\glew.res
+         tmp\glew_static\Release\x64\glew.obj
+         glew_static.vcxproj -> C:\Sourcecode\glew-1.10.0\build\vc10\../../lib\Release\x64\glew32s.lib
+       FinalizeBuildStatus:
+         Deleting file "tmp\glew_static\Release\x64\glew_static.unsuccessfulbuild".
+         Touching "tmp\glew_static\Release\x64\glew_static.lastbuildstate".
+     1>Done Building Project "C:\Sourcecode\glew-1.10.0\build\vc10\glew_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.15

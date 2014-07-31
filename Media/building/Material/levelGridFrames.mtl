@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = levelGridFramesForward
+Material1 = levelGridFramesClustered
+Material2 = levelGridFramesGBuffer

@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = ventsForward
+Material1 = ventsClustered
+Material2 = ventsGBuffer

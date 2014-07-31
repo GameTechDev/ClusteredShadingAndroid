@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = metalGrungeForward
+Material1 = metalGrungeClustered
+Material2 = metalGrungeGBuffer

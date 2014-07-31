@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = roofVents1Forward
+Material1 = roofVents1Clustered
+Material2 = roofVents1GBuffer

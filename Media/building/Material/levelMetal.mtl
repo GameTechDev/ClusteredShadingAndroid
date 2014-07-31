@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = levelMetalForward
+Material1 = levelMetalClustered
+Material2 = levelMetalGBuffer

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_GL|Win32">
+      <Configuration>Debug_GL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_GL|x64">
+      <Configuration>Debug_GL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_GL|Win32">
+      <Configuration>Release_GL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_GL|x64">
+      <Configuration>Release_GL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CC35FB2-B885-933C-0136-22C96D376C1A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ClusteredShadingWindowsGL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug_GL|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug_GL|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release_GL|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release_GL|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(PlatformToolset)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Platform)\$(PlatformToolset)\Debug\x32\Debug_GL\ClusteredShadingWindowsGL\</IntDir>
+    <TargetName>ClusteredShadingWindowsGL</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <IncludePath>jni\;Media\building\Shader;cput\CPUT;CPUT\middleware;CPUT\middleware\glew-1.10.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(PlatformToolset)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Platform)\$(PlatformToolset)\Debug\x64\Debug_GL\ClusteredShadingWindowsGL\</IntDir>
+    <TargetName>ClusteredShadingWindowsGL</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <IncludePath>jni\;Media\building\Shader;cput\CPUT;CPUT\middleware;CPUT\middleware\glew-1.10.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(PlatformToolset)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Platform)\$(PlatformToolset)\Release\x32\Release_GL\ClusteredShadingWindowsGL\</IntDir>
+    <TargetName>ClusteredShadingWindowsGL</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <IncludePath>jni\;Media\building\Shader;cput\CPUT;CPUT\middleware;CPUT\middleware\glew-1.10.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(PlatformToolset)\</OutDir>
+    <IntDir>$(ProjectDir)temp\$(Platform)\$(PlatformToolset)\Release\x64\Release_GL\ClusteredShadingWindowsGL\</IntDir>
+    <TargetName>ClusteredShadingWindowsGL</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <IncludePath>jni\;Media\building\Shader;cput\CPUT;CPUT\middleware;CPUT\middleware\glew-1.10.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ClusteredShadingWindowsGL.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\$(Platform)\$(PlatformToolset)\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GL|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ClusteredShadingWindowsGL.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\$(Platform)\$(PlatformToolset)\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\$(Platform)\$(PlatformToolset)\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_GL|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>CPUT_FOR_OGL;GLEW_STATIC;CPUT_OS_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CPUT\CPUT;..\CPUT\middleware\glew-1.10.0\include;..\CPUT\middleware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\$(Platform)\$(PlatformToolset)\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="CPUT\CPUTGL.vcxproj">
+      <Project>{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClusteredShadingWindows.cpp" />
+    <ClCompile Include="jni\ClusteredShadingSample.cpp" />
+    <ClCompile Include="jni\ColorUtil.cpp" />
+    <ClCompile Include="jni\FragmentFactory.cpp" />
+    <ClCompile Include="jni\GLProgram.cpp" />
+    <ClCompile Include="jni\LightGrid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\ClusteredShadingSample.h" />
+    <ClInclude Include="jni\ColorUtil.h" />
+    <ClInclude Include="jni\FragmentFactory.h" />
+    <ClInclude Include="jni\GLProgram.h" />
+    <ClInclude Include="jni\kernels_ispc.h" />
+    <ClInclude Include="jni\LightGrid.h" />
+    <ClInclude Include="jni\Structures.h" />
+    <ClInclude Include="Media\building\Shader\FramebufferFlat.h" />
+    <ClInclude Include="Media\building\Shader\GBuffer.h" />
+    <ClInclude Include="Media\building\Shader\GPUQuad.h" />
+    <ClInclude Include="Media\building\Shader\PerFrameConstants.h" />
+    <ClInclude Include="Media\building\Shader\Rendering.h" />
+    <ClInclude Include="Media\building\Shader\ShaderDefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\building\Shader\BasicLoopFS.glsl" />
+    <None Include="Media\building\Shader\ClusteredFS.glsl" />
+    <None Include="Media\building\shader\CopyTextureFS.glsl" />
+    <None Include="Media\building\Shader\ForwardFS.glsl" />
+    <None Include="Media\building\Shader\FullScreenTriangleVS.glsl" />
+    <None Include="Media\building\Shader\GBufferFS.glsl" />
+    <None Include="Media\building\Shader\GeometryVS.glsl" />
+    <None Include="Media\building\Shader\GPUQuadDLFS.glsl" />
+    <None Include="Media\building\Shader\GPUQuadDLResolveFS.glsl" />
+    <None Include="Media\building\Shader\GPUQuadFS.glsl" />
+    <None Include="Media\building\Shader\GPUQuadVS.glsl" />
+    <None Include="Media\building\shader\TiledDeferredCS.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+MultiMaterial = true
+Material0 = roofPipesForward
+Material1 = roofPipesClustered
+Material2 = roofPipesGBuffer

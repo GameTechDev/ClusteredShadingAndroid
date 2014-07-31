@@ -1,0 +1,10 @@
+ReceiveShadows      = false
+
+VertexShaderFile    = %shadowCast.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+VertexShaderFileOGL_1    = %ShadowCastOGL.glsl
+FragmentShaderFileOGL_1  = %ShadowCastOGL.glsl
+
+RenderStateFile     = %shadowCast.rs

@@ -1,0 +1,23 @@
+[material]
+Texture0 = white_4x4.dds
+Texture1 = buildingMap3_ILM.dds
+gLightsBuffer = $lights_buffer
+cbUIConstants = $ui_constants
+VertexShaderFile    = metalGrunge.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = metalGrunge.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = %Default.rs
+
+VertexShaderFileOGL_1 = PerFrameConstants.h
+VertexShaderFileOGL_2 = ShaderDefines.h
+VertexShaderFileOGL_3 = Rendering.h
+VertexShaderFileOGL_4 = GBuffer.h
+VertexShaderFileOGL_5 = GeometryVS.glsl
+FragmentShaderFileOGL_1 = PerFrameConstants.h
+FragmentShaderFileOGL_2 = ShaderDefines.h
+FragmentShaderFileOGL_3 = Rendering.h
+FragmentShaderFileOGL_4 = GBuffer.h
+FragmentShaderFileOGL_5 = ForwardFS.glsl

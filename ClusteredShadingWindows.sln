@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClusteredShadingWindowsGL", "ClusteredShadingWindowsGL.vcxproj", "{4CC35FB2-B885-933C-0136-22C96D376C1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0} = {345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPUTGL", "CPUT\CPUTGL.vcxproj", "{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_GL|Win32 = Debug_GL|Win32
+		Debug_GL|x64 = Debug_GL|x64
+		Release_GL|Win32 = Release_GL|Win32
+		Release_GL|x64 = Release_GL|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Debug_GL|Win32.ActiveCfg = Debug_GL|Win32
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Debug_GL|Win32.Build.0 = Debug_GL|Win32
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Debug_GL|x64.ActiveCfg = Debug_GL|x64
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Debug_GL|x64.Build.0 = Debug_GL|x64
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Release_GL|Win32.ActiveCfg = Release_GL|Win32
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Release_GL|Win32.Build.0 = Release_GL|Win32
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Release_GL|x64.ActiveCfg = Release_GL|x64
+		{345A00AA-20FC-2A80-09B7-3ED4F5F7B1D0}.Release_GL|x64.Build.0 = Release_GL|x64
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Debug_GL|Win32.ActiveCfg = Debug_GL|Win32
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Debug_GL|Win32.Build.0 = Debug_GL|Win32
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Debug_GL|x64.ActiveCfg = Debug_GL|x64
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Debug_GL|x64.Build.0 = Debug_GL|x64
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Release_GL|Win32.ActiveCfg = Release_GL|Win32
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Release_GL|Win32.Build.0 = Release_GL|Win32
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Release_GL|x64.ActiveCfg = Release_GL|x64
+		{4CC35FB2-B885-933C-0136-22C96D376C1A}.Release_GL|x64.Build.0 = Release_GL|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
