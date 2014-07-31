@@ -258,7 +258,7 @@ CPUTResult CPUTFileSystem::ReadFileContents(const std::wstring &fileName, UINT *
         fseek (pFile, 0, SEEK_SET);
 
         // allocate buffer
-        *ppData = (void*) new char[*pSizeInBytes];
+        *ppData = (void*) new char[*pSizeInBytes+1];
         ASSERT( *ppData, _L("Out of memory") );
 
         // read it all in
